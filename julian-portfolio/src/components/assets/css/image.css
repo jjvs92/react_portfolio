@@ -1,0 +1,11 @@
+.profileImage{
+    position: relative;
+    left: 500px;
+    background: lightgray;
+    height: 400px;
+    padding: 30px;
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+}

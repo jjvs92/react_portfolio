@@ -1,0 +1,20 @@
+.bio{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background: lightgray;
+    font-size: 25px;
+    width: 700px;
+    position: relative;
+    left: 360px;
+}
+
+.bio-content{
+    padding: 40px;
+}
+@media screen and (max-width: 980px) {
+    .bio{
+        background: blue;
+    }
+};
+@media screen and (max-width: 768px) {};
+@media screen and (max-width: 640px){};
