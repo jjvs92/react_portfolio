@@ -1,6 +1,15 @@
 .appCard{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     border: gray;
     border-style: solid;
     border-width: 3px;
+
+}
+
+.cardLinks{
+    text-align: center;
+}
+
+.appTitle{
+    font-weight: bold;
 }
