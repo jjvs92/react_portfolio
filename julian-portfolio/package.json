@@ -2,7 +2,7 @@
   "name": "julian-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jjvs92.github.io/react_portfolio",
+  "homepage": "https://jjvs92.github.io/react_portfolio/",
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
