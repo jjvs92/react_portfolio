@@ -1,7 +1,8 @@
 .houseApps{
-    background: gray;
+    background: #8cc5bb	;
     padding: 20px;
     margin-bottom: 50px;
+    opacity: .8;
 }
 
 .projects{

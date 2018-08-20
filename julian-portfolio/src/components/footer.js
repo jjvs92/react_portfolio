@@ -3,7 +3,7 @@ import "./assets/css/footer.css"
 
 const Footer = props => (
     <div className = "footer">
-         <h1>Footer</h1>
+         <h6>Copyright@ Julian Villarreal</h6>
     </div>
 
 )
