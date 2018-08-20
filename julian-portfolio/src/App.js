@@ -31,8 +31,7 @@ class App extends Component {
     return (
       <div>
 
-        <Header/>
-        <Image ProfileImage={this.state.ProfileImage}/>     
+        <Header/>   
         <Bio/> 
         <HouseApps>
           <CreatedApps 
@@ -43,6 +42,7 @@ class App extends Component {
             CampingImage={this.state.CampingImage}
             />
         </HouseApps>
+        <Image ProfileImage={this.state.ProfileImage}/>          
         <Footer/>
       </div>
     );

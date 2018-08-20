@@ -3,9 +3,8 @@ import "./assets/css/header.css";
 
 const Header = props => 
     <div className="header">
-        <nav className="navbar">            
-            <h1 className="myName">Julian Villarreal</h1>
-        </nav>
+    
+            <h1 className="myName">Full • Stack • Developer</h1>
         
     </div>
     
