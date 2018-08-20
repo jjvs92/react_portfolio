@@ -1,5 +1,5 @@
 .houseApps{
-    background: rgba(0, 0, 0, 0.6);;
+    background: rgba(0, 0, 0, 0.6);
     padding: 20px;
     margin-bottom: 50px;
     
@@ -9,4 +9,7 @@
     color: white;
     font-weight: bold;
     text-align: center;
+    opacity: 0.6;
+    padding-top: 15px;
+    margin-bottom: 30px;
 }

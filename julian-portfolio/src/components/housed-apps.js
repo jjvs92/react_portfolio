@@ -7,7 +7,7 @@ const HouseApps = props => (
     <div className="container">
 
         <div className="houseApps">
-            <h1 className = "projects">My Apps</h1>
+            <h1 className = "projects">Projects</h1>
             {props.children}
         </div>
         
