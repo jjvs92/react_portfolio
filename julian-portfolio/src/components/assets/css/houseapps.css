@@ -13,3 +13,21 @@
     padding-top: 15px;
     margin-bottom: 30px;
 }
+@media screen and (max-width: 980px) {
+
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px){
+ 
+}
+@media screen and (max-width: 400px){
+   .appContainer{
+       position: relative;
+       left: 12px;
+       width: 330px;
+   }
+
+};

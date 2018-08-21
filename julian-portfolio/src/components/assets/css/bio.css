@@ -14,6 +14,36 @@
 .bio-content{
     padding: 40px;
 }
-@media screen and (max-width: 980px) {};
-@media screen and (max-width: 768px) {};
-@media screen and (max-width: 640px){};
+@media screen and (max-width: 980px) {
+    .bio{
+        position: relative;
+        left: 360px;
+    }    
+
+}
+@media screen and (max-width: 768px) {
+    .bio{
+        position: relative;
+        left: 360px;
+    }    
+}
+@media screen and (max-width: 640px){
+    .bio{
+        position: relative;
+        left: 360px;
+    }    
+}
+@media screen and (max-width: 400px){
+
+    .bio{
+        position: relative;
+        left: 65px;
+        width: 300px;
+
+    }
+    .bio-content{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+};

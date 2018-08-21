@@ -14,3 +14,20 @@
 .appTitle{
     font-weight: bold;
 }
+
+@media screen and (max-width: 980px) {
+
+}
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 640px){
+
+}
+@media screen and (max-width: 400px){
+    .appCard{
+        height: 370px;
+        
+    }
+
+};

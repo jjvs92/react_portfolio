@@ -10,3 +10,22 @@
     
 
 }
+@media screen and (max-width: 980px) {
+
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 640px){
+
+}
+@media screen and (max-width: 400px){
+
+    .profileImage{
+        position: relative;
+        left: 95px;
+        height: 300px;
+    }
+
+};
