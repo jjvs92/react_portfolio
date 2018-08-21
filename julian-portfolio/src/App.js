@@ -12,6 +12,10 @@ import TriviaImage from "./components/assets/images/trivia_game.png";
 import OddSharkImage from "./components/assets/images/odds-shark.png";
 import MemoryImage from "./components/assets/images/memory-game.png";
 import CampingImage from "./components/assets/images/camping_image.png";
+import ConnectMe from "./components/connectme";
+import emailIcon from "./components/assets/images/email-icon.png";
+import gitIcon from "./components/assets/images/github-icon.png";
+import linkedIn from "./components/assets/images/linked-in.png";
 
 class App extends Component {
   state = {
@@ -20,7 +24,10 @@ class App extends Component {
     TriviaImage,
     OddSharkImage,
     MemoryImage,
-    CampingImage
+    CampingImage,
+    emailIcon,
+    gitIcon,
+    linkedIn
   };
 
    openApp = event =>{
@@ -32,6 +39,7 @@ class App extends Component {
       <div>
 
         <Header/>   
+        <Image ProfileImage={this.state.ProfileImage}/>          
         <Bio/> 
         <HouseApps>
           <CreatedApps 
@@ -42,7 +50,10 @@ class App extends Component {
             CampingImage={this.state.CampingImage}
             />
         </HouseApps>
-        <Image ProfileImage={this.state.ProfileImage}/>          
+        <ConnectMe
+          emailIcon={this.state.emailIcon}
+          gitIcon={this.state.gitIcon}
+          linkedIn={this.state.linkedIn}/>
         <Footer/>
       </div>
     );
