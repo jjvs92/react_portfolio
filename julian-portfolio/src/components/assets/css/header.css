@@ -14,6 +14,28 @@
     font-size: 42px;
 
 }
+
+
+
+@media screen and (max-width: 1400px){
+    .header{
+        background: black	;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 40px;
+        opacity: 0.6;
+    }
+    
+    .myName{
+        text-align: center;
+        color: white;
+        font-family: Georgia;
+        font-size: 42px;
+    
+    }
+}
+
 @media screen and (max-width: 980px) {
 
 

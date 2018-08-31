@@ -5,7 +5,7 @@
     font-size: 25px;
     width: 700px;
     position: relative;
-    left: 360px;
+    left: 600px;
     opacity: 0.6;
     color: white;
     font-family: Georgia;
@@ -13,6 +13,26 @@
 
 .bio-content{
     padding: 40px;
+}
+
+@media screen and (max-width: 1400px){
+
+    .bio{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        background: black;
+        font-size: 25px;
+        width: 700px;
+        position: relative;
+        left: 360px;
+        opacity: 0.6;
+        color: white;
+        font-family: Georgia;
+    }
+
+    .bio-content{
+        padding: 40px;
+    }
 }
 @media screen and (max-width: 980px) {
     .bio{

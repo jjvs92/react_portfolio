@@ -5,7 +5,7 @@
     font-size: 25px;
     width: 700px;
     position: relative;
-    left: 360px;
+    left: 600px;
     opacity: 0.6;
     color: white;
     font-family: Georgia;
@@ -32,6 +32,44 @@
     position: relative;
     left: 360px;
 
+}
+
+@media screen and (max-width: 1400px){
+    .connectMe{
+        margin-top: 40px;
+        margin-bottom: 30px;
+        background: black;
+        font-size: 25px;
+        width: 700px;
+        position: relative;
+        left: 360px;
+        opacity: 0.6;
+        color: white;
+        font-family: Georgia;
+    }
+
+    .connectTitle{
+        text-align: center;
+    }
+
+    .emailIcon{
+        height: 90px;
+        position: relative;
+        left: 50px;
+    }
+
+    .gitIcon{
+        height: 100px;
+        position: relative;
+        left: 200px;
+    }
+
+    .linkedInIcon{
+        height: 100px;
+        position: relative;
+        left: 360px;
+
+    }
 }
 
 @media screen and (max-width: 980px) {

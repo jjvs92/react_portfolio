@@ -1,5 +1,20 @@
 .profileImage{
     position: relative;
+    left: 800px;
+    background: black;
+    height: 400px;
+    padding: 3px;
+    border-radius: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+
+
+@media screen and (max-width: 1400px){
+.profileImage{
+    position: relative;
     left: 550px;
     background: black;
     height: 400px;
@@ -9,6 +24,7 @@
     margin-right: auto;
     
 
+}
 }
 @media screen and (max-width: 980px) {
 
