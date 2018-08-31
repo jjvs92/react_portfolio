@@ -27,11 +27,12 @@ class App extends Component {
     CampingImage,
     emailIcon,
     gitIcon,
-    linkedIn
+    linkedIn,
+    gitLink: "https://github.com/jjvs92"
   };
 
-   openApp = event =>{
-
+   openLink = (url) =>{
+      window.open(url);
   }
 
   render() {
@@ -51,8 +52,10 @@ class App extends Component {
             />
         </HouseApps>
         <ConnectMe
-          emailIcon={this.state.emailIcon}
+          emailIcon={this.state.emailIcon}          
           gitIcon={this.state.gitIcon}
+          openLink={this.openLink} 
+          gitLink={this.state.gitLink}         
           linkedIn={this.state.linkedIn}/>
         <Footer/>
       </div>

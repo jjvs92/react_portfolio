@@ -8,7 +8,7 @@ const CreatedApps = props =>
             <div class="card appCard" styles="width: 18rem;">
                 <img class="card-img-top appImage" src={props.CrystalImage} alt="Card image cap"/>
                 <div class="card-body cardLinks">
-                    <h5 className="appTitle"> Crystal Collector</h5>
+                    <h5 className="appTitle"> CrystalsCollector</h5>
                     <p class="card-text">Technologies used: Javascript, CSS, HTML</p>
                     <a href="https://jjvs92.github.io/unit-4-game" target="_blank">Crystal Collector</a> <br/>
                     <a href="https://github.com/jjvs92/unit-4-game" target="_blank">Git repo</a>
