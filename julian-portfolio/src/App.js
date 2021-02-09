@@ -18,48 +18,37 @@ import gitIcon from "./components/assets/images/github-icon.png";
 import linkedIn from "./components/assets/images/linked-in.png";
 
 class App extends Component {
-  state = {
-    ProfileImage,
-    CrystalImage,
-    TriviaImage,
-    OddSharkImage,
-    MemoryImage,
-    CampingImage,
-    emailIcon,
-    gitIcon,
-    linkedIn,
-    gitLink: "https://github.com/jjvs92"
-  };
-
-   openLink = (url) =>{
-      window.open(url);
-  }
-
   render() {
-    return (
-      <div>
+        const gitLink= "https://github.com/jjvs92";
+        const linkedInLink = "www.linkedin.com/in/julian-villarreal-706932123";
+      const openLink = (url) => {
+            window.open(url);
+      }
+        return (
+          <div>
 
-        <Header/>   
-        <Image ProfileImage={this.state.ProfileImage}/>          
-        <Bio/> 
-        <HouseApps>
-          <CreatedApps 
-            CrystalImage={this.state.CrystalImage}
-            TriviaImage={this.state.TriviaImage}
-            OddSharkImage={this.state.OddSharkImage}
-            MemoryImage={this.state.MemoryImage}
-            CampingImage={this.state.CampingImage}
-            />
-        </HouseApps>
-        <ConnectMe
-          emailIcon={this.state.emailIcon}          
-          gitIcon={this.state.gitIcon}
-          openLink={this.openLink} 
-          gitLink={this.state.gitLink}         
-          linkedIn={this.state.linkedIn}/>
-        <Footer/>
-      </div>
-    );
+            <Header/>
+            <Image ProfileImage={ProfileImage}/>
+            <Bio/>
+            <HouseApps>
+              <CreatedApps
+                CrystalImage={CrystalImage}
+                TriviaImage={TriviaImage}
+                OddSharkImage={OddSharkImage}
+                MemoryImage={MemoryImage}
+                CampingImage={CampingImage}
+                />
+            </HouseApps>
+            <ConnectMe
+              emailIcon={emailIcon}
+              gitIcon={gitIcon}
+              openLink={openLink}
+              gitLink={gitLink}
+              linkedIn={linkedIn}
+              linkedInLink={linkedInLink}/>
+            <Footer/>
+          </div>
+        );
   }
 }
 
